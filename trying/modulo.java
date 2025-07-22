@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class modulo {
+public class m78odulo {
     public static void main(String[] args) {
         Scanner w = new Scanner(System.in);
 
