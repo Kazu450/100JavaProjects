@@ -10,7 +10,6 @@ public class SimpleCalculator {
         System.out.print("Choose operation (+, -, *, /): ");
         String operation = w.next();
         
-        
 
         switch(operation){
             case "+":
@@ -29,7 +28,6 @@ public class SimpleCalculator {
 
             default:
             System.out.println("Invalid operation.");
-            w.close();
             break;
             
         }
