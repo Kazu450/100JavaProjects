@@ -29,7 +29,9 @@ public class SimpleCalculator {
 
             default:
             System.out.println("Invalid operation.");
+            w.close();
             break;
+            
         }
 
         
