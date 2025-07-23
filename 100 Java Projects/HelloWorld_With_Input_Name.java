@@ -6,9 +6,7 @@ public class HelloWorld_With_Input_Name {
         System.out.print("Enter your name: ");
         String name = w.nextLine();
 
-        System.out.println("Hello World " + name + "!");
-
-        
+        System.out.println("Hello World " + name + "!"); 
         w.close();
     }
 }

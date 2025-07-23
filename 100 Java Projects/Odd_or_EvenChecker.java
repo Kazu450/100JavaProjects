@@ -7,5 +7,6 @@ public class Odd_or_EvenChecker {
 
         if(number % 2 == 0){System.out.println("Even number");}
         else{System.out.println("Odd Number");}
+        w.close();
     }
 }
