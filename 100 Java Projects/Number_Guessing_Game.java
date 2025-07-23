@@ -7,8 +7,6 @@ public class Number_Guessing_Game {
        Random randnumb = new Random();
        int number = randnumb.nextInt(1,11);
 
-
-
         System.out.print("Guess the number: ");
         int guess = w.nextInt();
         if(guess == number){System.out.println("Correct!");}
