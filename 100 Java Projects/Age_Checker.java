@@ -8,7 +8,7 @@ public class Age_Checker {
             int age = w.nextInt();
 
             if(age > 17){System.out.println("Access granted. You are " + age + " or older.");}
-            else{System.out.println("Access denied. You must be " + age + " or older.");}
+            else{System.out.println("Access denied. You must be 18 or older.");}
  
         }else{System.out.println("That's not a valid number!");}
         w.close();
