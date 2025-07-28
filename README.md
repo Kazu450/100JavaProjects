@@ -31,6 +31,7 @@ Beginner Projects (1–30)
 30. Find Largest Number (3 Inputs)  
 
 Intermediate Projects (31–70)
+
 31. Student Record Manager  
 32. Mini Bank System  
 33. Contact List  
