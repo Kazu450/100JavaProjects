@@ -1,4 +1,5 @@
 Beginner Projects (1–30)
+
 1. Hello World with Name Input  
 2. Simple Calculator  
 3. Odd or Even Checker  
@@ -74,6 +75,7 @@ Intermediate Projects (31–70)
 70. Snake Game (GUI with KeyListeners)  
 
 Advanced Projects (71–100)
+
 71. Chat App (Console-Based)  
 72. Chat App with GUI  
 73. CRUD with JDBC (MySQL or SQLite)  
