@@ -32,11 +32,11 @@ public class Simple_ATM_Simulation {
                 case 2 : System.out.print("Enter amount of deposit: ");
                 double deposit = w.nextDouble();
                 balance += deposit;
-                System.out.printf("\nNew Balance: %.0f\n" , balance); break;
+                System.out.printf("\nNew balance: %.0f\n" , balance); break;
                 case 3 : System.out.print("Enter amount to withdraw: ");
                 double withdraw = w.nextDouble();
                 balance -= withdraw;
-                System.out.printf("\nNew Balance: %.0f\n" , balance); break;
+                System.out.printf("\nNew balance: %.0f\n" , balance); break;
                 case 4 : System.out.println("Thanks for using our ATM! Goodbye!"); return;
               }
         
