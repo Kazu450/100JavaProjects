@@ -52,6 +52,7 @@ public class Password_Strength_Checker {
     if (!letters) System.out.print("Add uppercase letters. ");
     if (!letters2) System.out.print("Add lowercase letters. ");
     if (!hasnumbers) System.out.print("Add numbers. ");
-    if (!special) System.out.print("Add special characters. \n"); w.close();}
+    if (!special) System.out.print("Add special characters. \n");}
+    w.close();
     }
 }
