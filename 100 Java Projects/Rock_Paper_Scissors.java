@@ -25,7 +25,7 @@ public class Rock_Paper_Scissors {
         else if(choice.equals("scissors")&& computer.equals("rock")){System.out.println("You lose!");player2++;}
         else if(choice.equals("rock")&& computer.equals("scissors")){System.out.println("You win!"); player1++; }
         else if(choice.equals("paper")&& computer.equals("rock")){System.out.println("You win!"); player1++;}
-        else if(choice.equals("scissors")&& computer.equals("paper")){System.out.println("You win!");player2++;}
+        else if(choice.equals("scissors")&& computer.equals("paper")){System.out.println("You win!");player1++;}
         else if(choice.equals(computer))System.out.println("Tie!");
 
         System.out.println("Player Score: " + player1);
