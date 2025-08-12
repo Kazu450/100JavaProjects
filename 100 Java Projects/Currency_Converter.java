@@ -14,6 +14,7 @@ public class Currency_Converter {
         System.out.println("3. JPY (Japanese Yen)");
         System.out.println("4. GBP (British Pound)");
         System.out.print("Choose an option (1-4): ");
+        
 
         if(!w.hasNextInt()){System.out.println("Invalid choice. Please enter a number between 1 and 4"); return;}
         int target = w.nextInt();
@@ -24,7 +25,7 @@ public class Currency_Converter {
         double british = 0.74;
 
         switch(target){
-            case 1 : System.out.printf("%.2f USD = %.2f PHP%n", usd, usd * ph); break;
+            case 1 : System.out.println(usd + " USD = " + usd * ph + " PHP"); break;
             case 2 : System.out.println(usd + " USD = " + usd * euro + " EUR"); break;
             case 3 : System.out.println(usd + " USD = " + usd * yen + " JPY"); break;
             case 4 : System.out.println(usd + " USD = " + usd * british + " GBP"); break;
