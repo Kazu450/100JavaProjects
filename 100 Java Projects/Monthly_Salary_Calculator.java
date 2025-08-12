@@ -11,18 +11,18 @@ public class Monthly_Salary_Calculator {
         String name = w.nextLine();
         System.out.print("Hourly Rate: ");
         if(!w.hasNextDouble()){System.out.println("Invalid input.\n"); w.nextLine(); continue;}
-        double hour = w.nextDouble(); w.nextLine();
+        double hour = w.nextDouble();
         System.out.print("Hours Worked This Month: ");
         if(!w.hasNextDouble()){System.out.println("Invalid input\n"); w.nextLine(); continue;}
         double month = w.nextDouble();w.nextLine();
 
-        System.out.println("\nCalculating salary for " + name + "....");
+        System.out.println("\nCalculating salary for " + name.toUpperCase() + "....");
 
         try {
             Thread.sleep(3000);
         } catch (Exception e) {System.out.println("Interupted.");
         }
-        System.out.println("Total Salary PHP" + hour * month);
-        }
+        System.out.println("Total Salary: PHP " + String.format("%,d",(int) (hour * month))); break;
+        } w.close();
     }
 }
