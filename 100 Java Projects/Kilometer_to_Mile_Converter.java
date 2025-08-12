@@ -9,10 +9,7 @@ public class Kilometer_to_Mile_Converter {
 
         double miles = kilometers * 0.621371;
 
-
         System.out.printf("%.2f kilometers is equal to %.2f miles%n" , kilometers , miles);
-
-        System.out.println("Hello World");
 
         w.close();
 }}
