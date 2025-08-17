@@ -13,9 +13,10 @@ public class Interest_Calculator {
 
         double simple = (amount * interest * years) /100;
         double total = amount + simple;
-
         
         System.out.println("Simple Interest = " + simple);
         System.out.println("Total Amount (Principal + Interest) = " + total);
+
+        w.close();
     }
 }
