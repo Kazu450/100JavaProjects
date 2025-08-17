@@ -10,7 +10,6 @@
             String number = "0123456789";
             String special = "!@#$%^&*()-_=+<>?";
             boolean access = true;
-            boolean access2 = true;
 
             String password = bigletter + smallletter + number + special;
 
@@ -26,7 +25,7 @@
             }
             System.out.println("Your random password is: " + finalpass);
 
-            while(access2){System.out.print("Do you want to generate another password? (yes/no): ");
+            while(true){System.out.print("Do you want to generate another password? (yes/no): ");
             String decision = w.nextLine();
             if(decision.equalsIgnoreCase("yes")){ break;}
             else if(decision.equalsIgnoreCase("no")){System.out.println("Thank you for using the Random Password Generator!"); access = false; break; }
